@@ -6,20 +6,22 @@
 ---
 
 ## 📁 Project Structure
-.
-├── mainjinan.py / mainla.py / main03.py # Main entry points for different datasets
-├── data_preprocessing.py # Data preprocessing module
-├── multiscale_processor.py # Multi-scale time series processing
-├── spatio.py # Spatial feature extraction
-├── st_fusion.py # Spatio-temporal fusion model
-├── mamba_vision_model.py # Mamba-based vision model
-├── trainer.py # Training pipeline
-├── check_environment.py # Environment validation script
-└── results/ # Output directory
-├── PEMS03/ # PEMS03 dataset results
-└── experiment_summary.txt # Summary of experiments
 
----
+```text
+.
+├── mainjinan.py / mainla.py / main03.py   # Main entry points for different datasets
+├── data_preprocessing.py                   # Data preprocessing module
+├── multiscale_processor.py                 # Multi-scale time series processing
+├── spatio.py                               # Spatial feature extraction
+├── st_fusion.py                            # Spatio-temporal fusion model
+├── mamba_vision_model.py                   # Mamba-based vision model
+├── trainer.py                              # Training pipeline
+├── check_environment.py                    # Environment validation script
+└── results/                                # Output directory
+    ├── PEMS03/                             # PEMS03 dataset results
+    └── experiment_summary.txt              # Summary of experiments
+```
+
 
 ## ⚙️ Environment Configuration
 
