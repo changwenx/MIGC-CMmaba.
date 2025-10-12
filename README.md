@@ -89,6 +89,7 @@ def check_environment():
 if __name__ == "__main__":
     check_environment()
 
+---------------------------------------------------------------
 2️⃣ Run Validation
 python check_environment.py
 
