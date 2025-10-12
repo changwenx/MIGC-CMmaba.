@@ -97,19 +97,25 @@ if __name__ == "__main__":
 python check_environment.py
 
 🚀 Running the Project
+```text
 python mainjinan.py --data_path /project/data/Jinan/JiNan.npz
 python mainbay.py --dataset_dir /project/data/pems-bay/
 python mainbay.py --dataset_dir /project/data/metr-la/
 python main03.py
+```
 
 📊 Results
+```
 Dataset
 Output Folder: results/dataset
 Summary File: results/experiment_summary.txt
+```
 
 🧠 Model Highlights
+```
 ✅ Mamba-based architecture for efficient sequence modeling
 ✅ Multi-scale time series processing for dynamic temporal representation
 ✅ Spatio-temporal fusion to capture complex spatial correlations
 ✅ Supports CUDA acceleration
+```
 
