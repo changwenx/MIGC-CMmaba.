@@ -9,7 +9,7 @@
 
 ```text
 .
-├── mainjinan.py / mainla.py / main03.py   # Main entry points for different datasets
+├── mainjinan.py / mainla.py / mainbay.py / main03.py   # Main entry points for different datasets
 ├── data_preprocessing.py                   # Data preprocessing module
 ├── multiscale_processor.py                 # Multi-scale time series processing
 ├── spatio.py                               # Spatial feature extraction
@@ -18,7 +18,7 @@
 ├── trainer.py                              # Training pipeline
 ├── check_environment.py                    # Environment validation script
 └── results/                                # Output directory
-    ├── PEMS03/                             # PEMS03 dataset results
+    ├── dataset/                             # PEMS03 dataset results
     └── experiment_summary.txt              # Summary of experiments
 ```
 
@@ -97,5 +97,19 @@ if __name__ == "__main__":
 python check_environment.py
 
 🚀 Running the Project
+python mainjinan.py --data_path /project/data/Jinan/JiNan.npz
+python mainbay.py --dataset_dir /project/data/pems-bay/
+python mainbay.py --dataset_dir /project/data/metr-la/
+python main03.py
 
+📊 Results
+Dataset
+Output Folder: results/dataset
+Summary File: results/experiment_summary.txt
+
+🧠 Model Highlights
+✅ Mamba-based architecture for efficient sequence modeling
+✅ Multi-scale time series processing for dynamic temporal representation
+✅ Spatio-temporal fusion to capture complex spatial correlations
+✅ Supports CUDA acceleration
 
