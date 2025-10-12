@@ -4,7 +4,6 @@
 > A traffic flow prediction project leveraging **Mamba architecture**, supporting **multi-scale time series image processing** and **spatio-temporal feature fusion** for accurate and efficient traffic forecasting.
 
 ---
-
 ## 📁 Project Structure
 
 ```text
