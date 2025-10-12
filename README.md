@@ -94,7 +94,9 @@ if __name__ == "__main__":
 ```  
 
 2️⃣ Run Validation
+```
 python check_environment.py
+```
 
 🚀 Running the Project
 ```text
