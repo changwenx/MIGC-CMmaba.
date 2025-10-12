@@ -40,6 +40,7 @@ Before running the project, please verify your environment.
 
 ### 1️⃣ Create `check_environment.py`
 
+
 ```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -89,7 +90,7 @@ def check_environment():
 if __name__ == "__main__":
     check_environment()
 
----------------------------------------------------------------
+
 2️⃣ Run Validation
 python check_environment.py
 
