@@ -50,7 +50,7 @@
 <img src="./image.png" alt="MIGC-CMamba framework overview" width="850"/>
 </div>
 
-> 💡 **Note:** add your architecture diagram at `assets/framework.png` (create an `assets/` folder next to this README and place your figure there — update the filename above if yours is named differently).
+
 
 ---
 
